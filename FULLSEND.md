@@ -11,7 +11,7 @@ The `.fullsend/config.yaml` file enables six roles:
 
 | Role | Trigger | What it does |
 |------|---------|--------------|
-| **triage** | Issue opened or labeled | Analyzes the issue, identifies root cause, and proposes a plan |
+| **triage** | Issue opened, edited, or labeled | Analyzes the issue, identifies root cause, and proposes a plan |
 | **coder** | `/fs-code` comment on a triaged issue | Implements the fix or feature and opens a pull request |
 | **review** | Pull request opened or updated | Reviews the PR for correctness, style, and completeness |
 | **fix** | Review requests changes | Automatically addresses review feedback on agent PRs |
